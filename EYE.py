@@ -429,7 +429,7 @@ def create_streamlit_app():
         st.markdown('<p class="section-header">SYSTEM PARAMETERS</p>', unsafe_allow_html=True)
         
         # Image Acquisition Instructions
-        with st.expander("📸 DIRECTIONS", expanded=True):
+        with st.expander(" DIRECTIONS", expanded=True):
             st.markdown("""
             
             <div class="instruction-item">
@@ -468,13 +468,13 @@ def create_streamlit_app():
             </div>
             """, unsafe_allow_html=True)
         
-        with st.expander("🔬 DIAGNOSTIC CAPABILITIES", expanded=False):
+        with st.expander(" DIAGNOSTIC CAPABILITIES", expanded=False):
             for disease, description in DISEASE_INFO.items():
                 st.markdown(f"**{disease.upper()}**")
                 st.markdown(f"<small>{description}</small>", unsafe_allow_html=True)
                 st.markdown("---")
         
-        with st.expander("⚕️ CLINICAL DISCLAIMERS"):
+        with st.expander("️ CLINICAL DISCLAIMERS"):
             st.markdown("""
             <div style="font-size: 0.9rem; line-height: 1.5;">
             • Research prototype - not FDA approved<br>
@@ -484,7 +484,7 @@ def create_streamlit_app():
             </div>
             """, unsafe_allow_html=True)
         
-        with st.expander("🧠 NETWORK ARCHITECTURE"):
+        with st.expander(" NETWORK ARCHITECTURE"):
             st.markdown("""
             <div style="font-size: 0.85rem; font-family: monospace;">
             <strong>DEEP CNN SPECIFICATION:</strong><br>
