@@ -1,0 +1,8 @@
+# requirements.txt
+torch>=2.5.0
+torchvision>=0.16.0
+opencv-python-headless
+streamlit
+requests
+Pillow
+numpy
