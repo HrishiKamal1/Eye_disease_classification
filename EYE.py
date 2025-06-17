@@ -416,7 +416,7 @@ def create_streamlit_app():
     """, unsafe_allow_html=True)
     
     # Main header
-    st.markdown('<h1 class="main-header">adi eye disease</h1>', 
+    st.markdown('<h1 class="main-header">CLINICAL EYE DISEASE CLASSIFIER</h1>', 
                 unsafe_allow_html=True)
     
     # Preload model when app starts
